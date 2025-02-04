@@ -56,7 +56,7 @@ function GameBox({ wrongWord, rightWord, halfWrongWord }) {
   return (
     <>
       <div className='game-box-container'>
-        <InputLine lineClass={'inputsA'} InputsLetter={inputsA} randomWord={randomWord} wrongWord={wrongWord} rightWord={rightWord} halfWrongWord={halfWrongWord} />
+        <InputLine lineClass={'inputsA'} InputsLetter={inputsA} randomWord={randomWord} wrongWord={wrongWord} rightWord={rightWord} halfWrongWord={halfWrongWord} isFirstLine={true} />
         <InputLine lineClass={'inputsB'} InputsLetter={inputsB} randomWord={randomWord} wrongWord={wrongWord} rightWord={rightWord} halfWrongWord={halfWrongWord} />
         <InputLine lineClass={'inputsC'} InputsLetter={inputsC} randomWord={randomWord} wrongWord={wrongWord} rightWord={rightWord} halfWrongWord={halfWrongWord} />
         <InputLine lineClass={'inputsD'} InputsLetter={inputsD} randomWord={randomWord} wrongWord={wrongWord} rightWord={rightWord} halfWrongWord={halfWrongWord} />
